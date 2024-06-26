@@ -1,0 +1,44 @@
+/* styles.module.css (or styles.css, depending on your setup) */
+
+.navbar {
+  background-color: #333;
+  padding: 20px 20px;
+}
+
+.navLinks {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navLinks li {
+  margin-right: 10px; 
+}
+
+.navLinks li:last-child {
+  margin-right: 0; 
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}

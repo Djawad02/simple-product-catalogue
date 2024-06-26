@@ -1,0 +1,108 @@
+/* styles/Products.module.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .productList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .productList li {
+    margin-bottom: 8px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productList li:hover {
+    background-color: #f0f0f0;
+  }
+
+  .Homeheading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .Homecontainer {
+    background-image: url("../public/img.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .productcontainer {
+    background-image: url("../public/img.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .productGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.5); 
+    color: rgba(0, 0, 0, 1.5) 
+  }
+  
+  .productRow {
+    width: 100%; 
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .productItem {
+    width: 23%; 
+    padding: 10px;
+    border: 1px solid hotpink;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 25) ;
+    margin-bottom: 20px;
+  }
+  
+  .productItem a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .productItem p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
